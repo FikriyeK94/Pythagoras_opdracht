@@ -9,4 +9,4 @@
 [Demo](https://fikriyek94.github.io/Pythagoras_opdracht/)
 
 
-![Screenshot Pythagoras](https://github.com/FikriyeK94/Pythagoras_opdracht/edit/main/screenshot.png "Screenshot Pythagoras")
+![Screenshot Pythagoras](https://github.com/FikriyeK94/Pythagoras_opdracht/edit/main/screenshot.PNG) "Screenshot Pythagoras")
