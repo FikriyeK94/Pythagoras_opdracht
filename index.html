@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pythagoras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <form>
+        <h2>Stelling van Pythagoras<br>Bereken de lengte van de hypotenusa</h2>
+        <label for="a">a</label>
+        <input type="text" id = "a" placeholder ='0'>
+        
+        <label for="b">b</label>
+        <input type="text" id = "b" placeholder = "0">
+        <label for="=">=</label>
+        
+        <label for="c">c</label>
+        <input type="text" id = "c" placeholder = "resultaat" disabled>
+
+        <input type= "button" id ="bereken" value="Bereken">
+        <input type= "reset" id ="reset" value="Reset">
+    
+        
+       
+    </form>
+
+    <script>
+      
+        let a = document.getElementById("a");
+        let b = document.getElementById("b");
+  
+        let inhoud = document.getElementById("c");
+        
+        let bereken = document.getElementById("bereken");
+        let reset = document.getElementById("reset"); 
+
+        bereken.addEventListener('click', mijnInhoud)
+       
+
+        function mijnInhoud() {
+            let string1 = a.value;
+            let string2 = b.value;
+ 
+
+            voegToe(string1, string2);
+           
+
+        }
+
+        function voegToe (string1, string2) {
+            let resultaat = (Math.sqrt((string1 * string1) + (string2 * string2)));
+            c.value = resultaat;
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
